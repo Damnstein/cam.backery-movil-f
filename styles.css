@@ -27,6 +27,11 @@ section h2{
     color: #f54a5e88;
     font-size: 2rem;
     margin-bottom: 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black transparent black transparent;
+    padding:1em;
+    width: 60%;
 }
 article{
     background-color: #f54a5e88;
@@ -35,9 +40,13 @@ article{
     font-family: 'Indie Flower', cursive;
 }
 article > h3{
+    text-align: center;
     font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
     color: #fdc1d4;   
+}
+article img{
+    width: 100%;
 }
 .ver-mas{
     font-size: 1.5rem;
